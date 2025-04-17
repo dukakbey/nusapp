@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Nusayri Mirası</string>
+    
+    <!-- Ana Menü -->
+    <string name="menu_history">Tarih ve Kültür</string>
+    <string name="menu_religious_days">Dini Günler</string>
+    <string name="menu_translation">Çeviri ve Konuşma Rehberi</string>
+    <string name="menu_settings">Ayarlar</string>
+    
+    <!-- Tarih ve Kültür Bölümü -->
+    <string name="history_title">Nusayri Tarihi</string>
+    <string name="culture_title">Kültürel Miras</string>
+    <string name="historical_figures">Tarihi Kişiler</string>
+    <string name="geography">Coğrafi Yayılım</string>
+    <string name="gallery">Fotoğraf ve Belge Galerisi</string>
+    <string name="figure_image">Tarihi Kişi Resmi</string>
+    <string name="figure_details">Kişi Detayları</string>
+    
+    <!-- Dini Günler -->
+    <string name="religious_days_title">Dini Günler</string>
+    <string name="next_event">Yaklaşan Dini Gün</string>
+    <string name="days_remaining">Kalan Gün</string>
+    <string name="days_remaining_count">Kalan Gün: %1$d</string>
+    <string name="event_details">Detaylar</string>
+    
+    <!-- Çeviri ve Konuşma Rehberi -->
+    <string name="translation_title">Çeviri ve Konuşma Rehberi</string>
+    <string name="category_dialect">Samandağ / Antakya Ağızları</string>
+    <string name="category_religious">Dini İfadeler</string>
+    <string name="category_commands">Kısa Komutlar &amp; Tepkiler</string>
+    <string name="category_home">Ev ve Aile Ortamı</string>
+    <string name="category_daily">Zaman ve Günlük Yaşam</string>
+    <string name="category_emotions">Duygular ve Tepkiler</string>
+    <string name="category_phrases">Sık Duyulan Söz Kalıpları</string>
+    <string name="category_family">Aile ve İnsanlar</string>
+    <string name="category_basic">Temel Kelimeler ve İfadeler</string>
+    
+    <!-- Dialog -->
+    <string name="dialog_title">Kategori Detayı</string>
+    <string name="dialog_close">Kapat</string>
+    
+    <!-- Update Dialog -->
+    <string name="update_available">Güncelleme Mevcut</string>
+    <string name="update_message">Yeni sürüm (%1$s) mevcut. Lütfen uygulamayı güncelleyin.</string>
+    <string name="update">Güncelle</string>
+    <string name="later">Daha Sonra</string>
+    <string name="redirecting_to_update">Güncelleme sayfasına yönlendiriliyor...</string>
+    
+    <!-- Genel -->
+    <string name="back">Geri</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="search">Ara</string>
+    <string name="notification_settings">Bildirim Ayarları</string>
+    <string name="dark_mode">Karanlık Mod</string>
+    <string name="language">Dil</string>
+</resources> 

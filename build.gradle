@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"
+        classpath 'com.google.gms:google-services:4.3.15'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+// Configure all projects
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    
+    // Set Java compatibility for all projects
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+        
+        // Disable androidJdkImage for all projects
+        options.fork = true
+        options.forkOptions.jvmArgs << '-Dandroid.disable.jdkImageTransform=true'
+    }
+}
+
+// Disable jdkImageTransform System Property
+System.setProperty("android.disable.jdkImageTransform", "true")
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+} 

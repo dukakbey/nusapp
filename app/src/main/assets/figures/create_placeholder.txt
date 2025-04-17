@@ -1,0 +1,11 @@
+Bu dosya sadece 'figures' klasörünün git üzerinde görünmesi için oluşturulmuştur.
+
+Gerçek uygulamada, aşağıdaki resim dosyaları bu klasörde yer almalıdır:
+- ibn_nusayr.png
+- el_hasibi.png
+- abu_said.png
+- hamza_bin_ali.png
+
+Bunlar tarihi kişilerin portre veya temsili görselleridir. Bu görseller internette bulunabilir veya bir grafik tasarımcı tarafından hazırlanabilir.
+
+Not: Bu dosyada bahsedilen kişilerin gerçek resimleri olmadığı için temsili görseller kullanılmalıdır. Tarihsel doğruluğu sağlamak adına dönem kıyafetleri ve özelliklerini yansıtan çizimler tercih edilebilir. 

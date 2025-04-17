@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.nsyri.app-main-30:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ibn_nusayr.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/ibn_nusayr.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_gallery_image.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/item_gallery_image.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_fragment_phrases.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/fragment_phrases.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_religious_days.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_religious_days.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_category_detail.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_category_detail.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_phrase.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/item_phrase.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_translation.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_translation.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_figure_detail.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_figure_detail.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_et_taberani.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/et_taberani.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_historical_figures.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_historical_figures.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_dialog_phrases.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/dialog_phrases.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_figures_list_item.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/figures_list_item.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_el_hasibi.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/el_hasibi.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_history.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_religious_day.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/item_religious_day.xml"
+    },
+    {
+        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_historical_figure.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/layout/item_historical_figure.xml"
+    }
+]

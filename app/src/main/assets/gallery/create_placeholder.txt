@@ -1,0 +1,11 @@
+Bu dosya sadece 'gallery' klasörünün git üzerinde görünmesi için oluşturulmuştur.
+
+Gerçek uygulamada, aşağıdaki resim dosyaları bu klasörde yer almalıdır:
+- samandagi.jpg - Samandağ bölgesinin görüntüsü
+- antakya.jpg - Antakya şehrinin tarihi bir görüntüsü
+- ritual.jpg - Nusayri dini ritüelini temsil eden bir görüntü
+- manuscripts.jpg - Eski Nusayri el yazması sayfalar
+- traditional_dress.jpg - Geleneksel Nusayri kıyafetleri
+- historical_mosque.jpg - Nusayriler için önemli tarihi bir cami
+
+Bu görseller tarihi kayıtlardan, müzelerden veya açık kaynaklardan temin edilebilir. Telif hakkı ve kullanım izinlerine dikkat edilmelidir. 
