@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.LinearLayout;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.nsyri.R;
 import com.example.nsyri.model.ReligiousDay;
+import com.example.nsyri.util.DrawableHelper;
 
 import java.util.List;
 
@@ -49,6 +51,11 @@ public class ReligiousDaysAdapter extends RecyclerView.Adapter<ReligiousDaysAdap
         holder.daysRemainingTextView.setText(context.getString(R.string.days_remaining_count, religiousDay.getDaysRemaining()));
         holder.descriptionTextView.setText(religiousDay.getDescription());
         
+        // Programatik olarak oluşturulan drawable ile resmi ayarla
+        holder.imageView.setImageDrawable(
+            DrawableHelper.createReligiousDayDrawable(religiousDay.getName(), religiousDay.isJoyous())
+        );
+        
         // Set background color based on whether the day is joyous or not
         if (religiousDay.isJoyous()) {
             holder.background.setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimary));
@@ -75,6 +82,7 @@ public class ReligiousDaysAdapter extends RecyclerView.Adapter<ReligiousDaysAdap
         TextView daysRemainingTextView;
         TextView descriptionTextView;
         LinearLayout background;
+        ImageView imageView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -84,6 +92,7 @@ public class ReligiousDaysAdapter extends RecyclerView.Adapter<ReligiousDaysAdap
             daysRemainingTextView = itemView.findViewById(R.id.tv_days_remaining);
             descriptionTextView = itemView.findViewById(R.id.tv_religious_day_description);
             background = itemView.findViewById(R.id.religious_day_background);
+            imageView = itemView.findViewById(R.id.iv_religious_day_image);
         }
     }
 } 

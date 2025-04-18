@@ -40,6 +40,7 @@
             android:padding="16dp">
 
             <ImageView
+                android:id="@+id/cardIcon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:src="@android:drawable/ic_menu_info_details"
@@ -75,6 +76,7 @@
             android:padding="16dp">
 
             <ImageView
+                android:id="@+id/cardIcon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:src="@android:drawable/ic_menu_my_calendar"
@@ -110,6 +112,7 @@
             android:padding="16dp">
 
             <ImageView
+                android:id="@+id/cardIcon"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:src="@android:drawable/ic_menu_sort_alphabetically"

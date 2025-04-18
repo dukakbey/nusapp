@@ -27,22 +27,32 @@
         <activity
             android:name=".ReligiousDaysActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".TranslationActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".FigureDetailActivity"
             android:exported="false"
-            android:parentActivityName=".HistoryActivity" />
+            android:parentActivityName=".ReligiousDaysActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".CategoryDetailActivity"
             android:exported="false"
-            android:parentActivityName=".TranslationActivity" />
+            android:parentActivityName=".TranslationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".BasicWordsDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".TranslationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 

@@ -22,6 +22,7 @@
     <string name="days_remaining">Kalan Gün</string>
     <string name="days_remaining_count">Kalan Gün: %1$d</string>
     <string name="event_details">Detaylar</string>
+    <string name="religious_day_image_description">Dini gün resmi</string>
     
     <!-- Çeviri ve Konuşma Rehberi -->
     <string name="translation_title">Çeviri ve Konuşma Rehberi</string>
@@ -34,6 +35,8 @@
     <string name="category_phrases">Sık Duyulan Söz Kalıpları</string>
     <string name="category_family">Aile ve İnsanlar</string>
     <string name="category_basic">Temel Kelimeler ve İfadeler</string>
+    <string name="category_home_family">Ev ve Aile Ortamı</string>
+    <string name="category_time_daily">Zaman ve Günlük Hayat</string>
     
     <!-- Dialog -->
     <string name="dialog_title">Kategori Detayı</string>

@@ -9,13 +9,15 @@ public class ReligiousDay {
     private String description;
     private boolean isJoyous;
     private int daysRemaining;
+    private int imageResourceId;
 
-    public ReligiousDay(String name, String date, String description, boolean isJoyous, int daysRemaining) {
+    public ReligiousDay(String name, String date, String description, boolean isJoyous, int daysRemaining, int imageResourceId) {
         this.name = name;
         this.date = date;
         this.description = description;
         this.isJoyous = isJoyous;
         this.daysRemaining = daysRemaining;
+        this.imageResourceId = imageResourceId;
     }
 
     public String getName() {
@@ -36,5 +38,9 @@ public class ReligiousDay {
 
     public int getDaysRemaining() {
         return daysRemaining;
+    }
+    
+    public int getImageResourceId() {
+        return imageResourceId;
     }
 } 

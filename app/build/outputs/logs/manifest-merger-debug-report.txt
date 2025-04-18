@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\0a351dc1c1c514450ff07d5005560930\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\SEZGIN\.gradle\caches\transforms-3\21e66d18f3a8ae386b10095364b42de4\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\SEZGIN\.gradle\caches\transforms-3\cfcdc46b346ee92b2d6cdde8ca3a25eb\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -46,25 +46,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SEZGIN\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\0e15ec4f9315e514d80309ef3166b341\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\d45de46cb9846deccff09d27a212e11e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\78f062833427cf72b815e1ceadb5aa9b\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:5:5-47:19
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:5:5-57:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\0a351dc1c1c514450ff07d5005560930\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\SEZGIN\.gradle\caches\transforms-3\0a351dc1c1c514450ff07d5005560930\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\SEZGIN\.gradle\caches\transforms-3\21e66d18f3a8ae386b10095364b42de4\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -120,37 +120,55 @@ ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:22:9-
 	android:name
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:23:13-44
 activity#com.example.nsyri.ReligiousDaysActivity
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:27:9-30:58
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:27:9-31:59
 	android:parentActivityName
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:30:13-55
 	android:exported
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
 		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:28:13-50
 activity#com.example.nsyri.TranslationActivity
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:32:9-35:58
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:33:9-37:59
 	android:parentActivityName
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:35:13-55
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:36:13-55
 	android:exported
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:33:13-48
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:34:13-48
 activity#com.example.nsyri.FigureDetailActivity
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:37:9-40:61
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:39:9-43:59
 	android:parentActivityName
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:40:13-58
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:42:13-64
 	android:exported
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:41:13-37
+	android:theme
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:40:13-49
 activity#com.example.nsyri.CategoryDetailActivity
-ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:42:9-45:65
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:45:9-49:59
 	android:parentActivityName
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:45:13-62
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:48:13-62
 	android:exported
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:47:13-37
+	android:theme
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:43:13-51
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:46:13-51
+activity#com.example.nsyri.BasicWordsDetailActivity
+ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:51:9-55:59
+	android:parentActivityName
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:54:13-62
+	android:exported
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:53:13-37
+	android:theme
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:55:13-56
+	android:name
+		ADDED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml:52:13-53
 uses-sdk
 INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\SEZGIN\Desktop\nusapp\app\src\main\AndroidManifest.xml

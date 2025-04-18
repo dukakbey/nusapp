@@ -34,19 +34,28 @@
         <activity
             android:name="com.example.nsyri.ReligiousDaysActivity"
             android:exported="false"
-            android:parentActivityName="com.example.nsyri.MainActivity" />
+            android:parentActivityName="com.example.nsyri.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.nsyri.TranslationActivity"
             android:exported="false"
-            android:parentActivityName="com.example.nsyri.MainActivity" />
+            android:parentActivityName="com.example.nsyri.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.nsyri.FigureDetailActivity"
             android:exported="false"
-            android:parentActivityName="com.example.nsyri.HistoryActivity" />
+            android:parentActivityName="com.example.nsyri.ReligiousDaysActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.nsyri.CategoryDetailActivity"
             android:exported="false"
-            android:parentActivityName="com.example.nsyri.TranslationActivity" />
+            android:parentActivityName="com.example.nsyri.TranslationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nsyri.BasicWordsDetailActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.nsyri.TranslationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

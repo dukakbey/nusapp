@@ -1,90 +1,170 @@
 [
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.nsyri.app-main-30:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_time.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_time.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ibn_nusayr.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/drawable/ibn_nusayr.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_antakya.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\antakya.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_main.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_dialect.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_dialect.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_gallery_image.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/item_gallery_image.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_fragment_phrases.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/fragment_phrases.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_item_gallery_image.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\item_gallery_image.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_home_family.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_home_family.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_religious_days.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_religious_days.xml"
+        "merged": "com.example.nsyri.app-merged_res-28:/drawable_placeholder_person.xml.flat",
+        "source": "com.example.nsyri.app-main-30:/drawable/placeholder_person.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_category_detail.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_category_detail.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_time_daily.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_time_daily.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_placeholder_image.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\placeholder_image.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_phrase.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/item_phrase.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_translation.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_translation.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_et_taberani.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\et_taberani.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_figure_detail.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_figure_detail.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_samandagi.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\samandagi.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/drawable_et_taberani.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/drawable/et_taberani.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_fragment_phrases.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\fragment_phrases.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_historical_figures.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_historical_figures.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_dialog_phrases.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/dialog_phrases.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_basic_words_detail.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_basic_words_detail.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_figures_list_item.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/figures_list_item.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_muhammad_bin_nusayr.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\muhammad_bin_nusayr.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/drawable_el_hasibi.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/drawable/el_hasibi.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ibn_nusayr.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ibn_nusayr.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_activity_history.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/activity_history.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_figure_detail.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_figure_detail.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_item_phrase.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\item_phrase.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_religious_day.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/item_religious_day.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_historical_figures.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_historical_figures.xml"
     },
     {
-        "merged": "com.example.nsyri.app-merged_res-28:/layout_item_historical_figure.xml.flat",
-        "source": "com.example.nsyri.app-main-30:/layout/item_historical_figure.xml"
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_husayn_ibn_hamdan.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\husayn_ibn_hamdan.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_dialog_phrases.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\dialog_phrases.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_manuscripts.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\manuscripts.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_abu_said.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\abu_said.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_emotions.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_emotions.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_item_historical_figure.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\item_historical_figure.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_religious.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_religious.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_religious_days.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_religious_days.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_hamza_bin_ali.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\hamza_bin_ali.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_emotion.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_emotion.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_figures_list_item.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\figures_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_item_religious_day.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\item_religious_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_el_hasibi.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\el_hasibi.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_nusayri_ritual.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\nusayri_ritual.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_category_detail.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_category_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\drawable_ic_commands.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\drawable\\ic_commands.xml"
+    },
+    {
+        "merged": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-merged_res-28:\\layout_activity_translation.xml.flat",
+        "source": "C:\\Users\\SEZGIN\\.gradle\\daemon\\7.5\\com.example.nsyri.app-main-30:\\layout\\activity_translation.xml"
     }
 ]

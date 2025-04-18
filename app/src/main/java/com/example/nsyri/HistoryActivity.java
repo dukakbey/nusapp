@@ -127,71 +127,45 @@ public class HistoryActivity extends AppCompatActivity {
     private void createHistoricalFiguresData() {
         historicalFigures = new ArrayList<>();
         
-        // Gerçek uygulamada bu veriler veritabanından veya API'den gelecek
+        // Tarihi kişiler verilerini oluştur
         historicalFigures.add(new HistoricalFigure(
             1,
             "Muhammed bin Nusayr",
             "9. Yüzyıl",
-            "figures/ibn_nusayr.png",
-            "Muhammed bin Nusayr, 9. yüzyılda yaşamış ve Nusayriliğin kurucusu olarak kabul edilen şahsiyettir. " +
-            "Aslen Basra'lı olduğu ve Irak bölgesinde yaşadığı bilinmektedir. " +
-            "Kendisini 10. İmam Ali el-Hadi ve 11. İmam Hasan el-Askeri'nin öğrencisi ve kapısı (Bab) olarak " +
-            "tanıtmış ve onların adına konuştuğunu iddia etmiştir.\n\n" +
-            "Bazı kaynaklara göre, Muhammed bin Nusayr kendisinin 'Bab' (kapı) olduğunu, İmamın bilgisinin " +
-            "kendisi aracılığıyla yayıldığını ileri sürmüştür. İmam Hasan el-Askeri'nin vefatından sonra, " +
-            "kendisini 12. İmam Muhammed Mehdi'nin özel temsilcisi ilan etmiştir.\n\n" +
-            "Nusayriler onu, mezheplerinin kurucusu olarak kabul ederler. Onun öğretileri, " +
-            "Ali bin Ebu Talib'in ilahiliğine inanç, ruhların tenasühü (reenkarnasyon), gizli ve zahiri " +
-            "bilgi gibi kavramları içerir. Kendisinden sonra öğretilerini Hüseyin bin Hamdan el-Hasîbî " +
-            "devam ettirmiştir."
+            "muhammad_bin_nusayr",
+            "Nusayriliğin kurucusu olarak kabul edilen Muhammed bin Nusayr, 9. yüzyılda yaşamıştır. " +
+            "İmam Ali'nin ilahiliğine inanan ve bu inancı yayan kişi olarak bilinir. " +
+            "Nusayriliğin temel inanç sistemini oluşturmuştur."
         ));
         
         historicalFigures.add(new HistoricalFigure(
             2,
-            "Hüseyin bin Hamdan el-Hasîbî",
+            "Hüseyin bin Hamdan el-Hasibi",
             "10. Yüzyıl",
-            "figures/el_hasibi.png",
-            "Hüseyin bin Hamdan el-Hasîbî, 10. yüzyılda yaşamış ve Muhammed bin Nusayr'dan sonra " +
-            "Nusayriliğin geliştirip yayılmasında en önemli rolü oynayan kişidir. Aslen Irak'lı olduğu " +
-            "ve Bağdat'ta yaşadığı bilinmektedir.\n\n" +
-            "El-Hasîbî, Nusayriliğin temel inanç sistemini ve ritüellerini sistematize etmiş, " +
-            "çeşitli eserler yazmıştır. En önemli kitabı olan 'Kitabü'l-Hidaye el-Kübra' (Büyük Hidayet Kitabı), " +
-            "Nusayrilerin temel kaynaklarından biridir.\n\n" +
-            "Abbasi halifesi Nasır'ın hükümdarlığı döneminde (1180-1225) Suriye'ye, özellikle Halep'e " +
-            "yerleşen el-Hasîbî, burada kendi öğretisini yaymaya başlamış ve böylece Nusayrilik " +
-            "Suriye'de yayılma imkanı bulmuştur. El-Hasîbî'nin Halep'te 358/969 yılında vefat ettiği " +
-            "rivayet edilmektedir."
+            "husayn_ibn_hamdan",
+            "Nusayriliğin önemli şahsiyetlerinden biri olan Hüseyin bin Hamdan el-Hasibi, " +
+            "10. yüzyılda yaşamış ve Nusayriliğin yayılmasında büyük rol oynamıştır. " +
+            "Nusayriliğin temel metinlerinden olan 'Kitabü'l-Mecmu'yu yazmıştır."
         ));
         
         historicalFigures.add(new HistoricalFigure(
             3,
             "Ebu Said el-Meymun",
             "11. Yüzyıl",
-            "figures/abu_said.png",
-            "Ebu Said el-Meymun, 11. yüzyılda yaşamış ve Nusayriliğin yayılmasında önemli rol oynamış " +
-            "olan bir din adamıdır. El-Hasîbî'nin öğrencilerinden olan Ebu Said, özellikle " +
-            "Nusayriliğin Lazkiye ve çevresinde yayılmasına katkıda bulunmuştur.\n\n" +
-            "Kaynaklar, onun özellikle gizli öğretilerin aktarımında ve ritüellerin korunmasında " +
-            "büyük rol oynadığını belirtmektedir. Mezhebin temel metinlerinden bazılarının " +
-            "yorumlanması ve geliştirilmesine katkı sağlamıştır.\n\n" +
-            "Ebu Said'in öğretileri, daha sonraki Nusayri şeyhlerinin oluşturduğu literatüre temel teşkil etmiştir. " +
-            "Kendisinden sonra, mezhebin öğretileri yetiştirdiği talebeler aracılığıyla devam ettirilmiştir."
+            "abu_said",
+            "Nusayriliğin önemli şahsiyetlerinden biri olan Ebu Said el-Meymun, " +
+            "11. yüzyılda yaşamış ve Nusayriliğin yayılmasında etkili olmuştur. " +
+            "Nusayriliğin inanç sistemini geliştiren ve yayan kişilerden biridir."
         ));
         
         historicalFigures.add(new HistoricalFigure(
             4,
             "Hamza bin Ali",
             "11. Yüzyıl",
-            "figures/hamza_bin_ali.png",
-            "Hamza bin Ali, 11. yüzyılda yaşamış ve Nusayrilik ile ilişkili olduğu düşünülen önemli " +
-            "bir din adamıdır. Bazı kaynaklar, onun Dürziliğin kurucu figürlerinden biri olduğunu " +
-            "belirtse de, Nusayri gelenekleri içinde de önemli bir yere sahiptir.\n\n" +
-            "Hamza bin Ali'nin öğretileri, Ali bin Ebu Talib'in kutsallığı, evrenin döngüsel doğası " +
-            "ve gizli bilgilerin korunması gibi konular üzerine yoğunlaşmıştır. Bu öğretiler, " +
-            "hem Nusayrilik hem de diğer batıni mezhepler tarafından benimsenmiştir.\n\n" +
-            "Tarihsel kayıtlarda, onun talebeleri aracılığıyla öğretilerinin Suriye ve Lübnan bölgesinde " +
-            "yayıldığı belirtilmektedir. Özellikle kozmoloji ve teoloji alanındaki görüşleri, " +
-            "Nusayri düşünce dünyasını etkilemiştir."
+            "hamza_bin_ali",
+            "Nusayriliğin önemli şahsiyetlerinden biri olan Hamza bin Ali, " +
+            "11. yüzyılda yaşamış ve Nusayriliğin yayılmasında etkili olmuştur. " +
+            "Nusayriliğin inanç sistemini geliştiren ve yayan kişilerden biridir."
         ));
     }
 
@@ -220,47 +194,37 @@ public class HistoryActivity extends AppCompatActivity {
     private void createGalleryData() {
         galleryItems = new ArrayList<>();
         
-        // Gerçek uygulamada bu veriler veritabanından veya API'den gelecek
+        // Galeri verilerini oluştur
         galleryItems.add(new GalleryItem(
             1,
-            "Samandağ Bölgesi",
-            "gallery/samandagi.jpg",
-            "Türkiye'de Nusayrilerin en yoğun yaşadığı bölge olan Hatay Samandağ'dan bir görüntü."
+            "Nusayri Dini Ritüeli",
+            "nusayri_ritual",
+            "Nusayri topluluğunda gerçekleştirilen dini bir ritüel. Bu ritüeller, " +
+            "Nusayriliğin önemli bir parçasıdır ve topluluk içinde nesilden nesile aktarılmaktadır."
         ));
         
         galleryItems.add(new GalleryItem(
             2,
-            "Antakya Şehri",
-            "gallery/antakya.jpg",
-            "Nusayrilerin tarihsel olarak yaşadığı Antakya şehrinden tarihi bir görüntü."
+            "Samandağ Bölgesi",
+            "samandagi",
+            "Türkiye'de Nusayrilerin yoğun olarak yaşadığı Hatay'ın Samandağ ilçesi. " +
+            "Bu bölge, Nusayriliğin Türkiye'deki en önemli merkezlerinden biridir."
         ));
         
         galleryItems.add(new GalleryItem(
             3,
-            "Dini Ritüel",
-            "gallery/ritual.jpg",
-            "Nusayri dini ritüelini temsil eden bir görüntü."
+            "Antakya Şehri",
+            "antakya",
+            "Tarihi Antakya şehri. Nusayrilerin tarihsel olarak yaşadığı önemli merkezlerden biri. " +
+            "Antakya, farklı inanç ve kültürlerin bir arada yaşadığı bir şehir olarak bilinir."
         ));
         
         galleryItems.add(new GalleryItem(
             4,
             "El Yazmaları",
-            "gallery/manuscripts.jpg",
-            "Nusayri topluluğuna ait tarihi el yazması metinlerden bir örnek."
-        ));
-        
-        galleryItems.add(new GalleryItem(
-            5,
-            "Geleneksel Kıyafetler",
-            "gallery/traditional_dress.jpg",
-            "Nusayrilerin geleneksel kıyafetlerinden örnekler."
-        ));
-        
-        galleryItems.add(new GalleryItem(
-            6,
-            "Tarihi Cami",
-            "gallery/historical_mosque.jpg",
-            "Nusayri topluluğu için önemli olan tarihi bir cami."
+            "manuscripts",
+            "Nusayriliğe ait tarihi el yazması metinler. Bu metinler, Nusayriliğin inanç ve " +
+            "ritüellerini anlamak için önemli kaynaklardır."
         ));
     }
     
@@ -334,71 +298,56 @@ public class HistoryActivity extends AppCompatActivity {
 
     // Tarihi Kişiler için RecyclerView Adaptörü
     private class HistoricalFigureAdapter extends RecyclerView.Adapter<HistoricalFigureAdapter.HistoricalFigureViewHolder> {
-
+        
         private List<HistoricalFigure> figures;
-
+        
         public HistoricalFigureAdapter(List<HistoricalFigure> figures) {
             this.figures = figures;
         }
-
+        
         @NonNull
         @Override
         public HistoricalFigureViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            try {
-                View view = getLayoutInflater().inflate(R.layout.item_historical_figure, parent, false);
-                return new HistoricalFigureViewHolder(view);
-            } catch (Exception e) {
-                e.printStackTrace();
-                // Hata durumunda boş bir view oluştur
-                View emptyView = new View(parent.getContext());
-                return new HistoricalFigureViewHolder(emptyView);
-            }
+            View view = getLayoutInflater().inflate(
+                    R.layout.item_historical_figure, parent, false);
+            return new HistoricalFigureViewHolder(view);
         }
-
+        
         @Override
         public void onBindViewHolder(@NonNull HistoricalFigureViewHolder holder, int position) {
+            HistoricalFigure figure = figures.get(position);
+            holder.figureName.setText(figure.getName());
+            
+            // İlk olarak asset'lerden resmi yüklemeyi dene
             try {
-                final HistoricalFigure figure = figures.get(position);
-                
-                // İsim ayarla
-                if (holder.figureName != null) {
-                    holder.figureName.setText(figure.getName());
-                }
-                
-                // Resim yükle
-                if (holder.figurePic != null && figure.getImagePath() != null && !figure.getImagePath().isEmpty()) {
-                    loadImageFromAssets(holder.figurePic, figure.getImagePath());
-                }
-                
-                // Tıklama işleyicisi ayarla
-                holder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        openFigureDetail(figure);
-                    }
-                });
+                loadImageFromAssets(holder.figurePic, "figures/" + figure.getImagePath() + ".jpg");
             } catch (Exception e) {
-                e.printStackTrace();
+                // Resim yüklenemediyse placeholderı kullan
+                holder.figurePic.setImageResource(R.drawable.placeholder_person);
             }
+            
+            // Tarihi kişi detaylarına gitmek için tıklama olayını ayarla
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    openFigureDetail(figure);
+                }
+            });
         }
-
+        
         @Override
         public int getItemCount() {
-            return figures != null ? figures.size() : 0;
+            return figures.size();
         }
-
+        
         class HistoricalFigureViewHolder extends RecyclerView.ViewHolder {
             ImageView figurePic;
             TextView figureName;
-
+            
             public HistoricalFigureViewHolder(@NonNull View itemView) {
                 super(itemView);
-                try {
-                    figurePic = itemView.findViewById(R.id.figurePic);
-                    figureName = itemView.findViewById(R.id.figureName);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                figurePic = itemView.findViewById(R.id.figurePic);
+                figureName = itemView.findViewById(R.id.figureName);
             }
         }
     }
@@ -494,15 +443,24 @@ public class HistoryActivity extends AppCompatActivity {
     
     private void loadImageFromAssets(ImageView imageView, String imagePath) {
         try {
+            // Assets klasöründen dosyayı yükle
             AssetManager assetManager = getAssets();
-            InputStream is = assetManager.open(imagePath);
-            Bitmap bitmap = BitmapFactory.decodeStream(is);
+            InputStream inputStream = assetManager.open(imagePath);
+            
+            // Bitmap oluştur
+            Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+            
+            // ImageView'a yerleştir
             imageView.setImageBitmap(bitmap);
-            is.close();
+            
+            // Kaynağı kapat
+            inputStream.close();
         } catch (IOException e) {
+            // Dosya bulunamadı veya açılamadı
             e.printStackTrace();
-            // Hata durumunda varsayılan resim göster
-            imageView.setImageResource(android.R.drawable.ic_menu_report_image);
+            
+            // Placeholder resmi kullan
+            imageView.setImageResource(R.drawable.placeholder_person);
         }
     }
     

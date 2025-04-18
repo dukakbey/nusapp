@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
 import android.widget.TextView;
 
+import com.example.nsyri.util.IconProvider;
 // import com.example.nsyri.util.VersionCheckUtility;
 
 import java.text.SimpleDateFormat;
@@ -40,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             // Initialize UI components
             initializeViews();
             
+            // Set up card icons
+            setupCardIcons();
+            
             // Set up card click listeners
             setupClickListeners();
             
@@ -66,6 +71,30 @@ public class MainActivity extends AppCompatActivity {
             daysRemaining = findViewById(R.id.daysRemaining);
         } catch (Exception e) {
             Log.e(TAG, "Error initializing views: " + e.getMessage(), e);
+        }
+    }
+    
+    private void setupCardIcons() {
+        try {
+            // Tarih ve Kültür ikonu
+            ImageView historyIcon = historyCard.findViewById(R.id.cardIcon);
+            if (historyIcon != null) {
+                historyIcon.setImageDrawable(IconProvider.createMenuIcon(this, IconProvider.MenuCategory.HISTORY));
+            }
+            
+            // Dini Günler ikonu
+            ImageView religiousDaysIcon = religiousDaysCard.findViewById(R.id.cardIcon);
+            if (religiousDaysIcon != null) {
+                religiousDaysIcon.setImageDrawable(IconProvider.createMenuIcon(this, IconProvider.MenuCategory.RELIGIOUS_DAYS));
+            }
+            
+            // Çeviri ve Konuşma Rehberi ikonu
+            ImageView translationIcon = translationCard.findViewById(R.id.cardIcon);
+            if (translationIcon != null) {
+                translationIcon.setImageDrawable(IconProvider.createMenuIcon(this, IconProvider.MenuCategory.TRANSLATION));
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "Error setting up card icons: " + e.getMessage(), e);
         }
     }
     
@@ -110,39 +139,75 @@ public class MainActivity extends AppCompatActivity {
     
     private void updateNextEventInfo() {
         try {
-            // Example: Show information about "Gadir-i Hum"
-            String eventName = "Gadir-i Hum";
-            String eventDate = "18.07.2024";
+            // 2025 yılı için dini günler
+            String[][] religiousDays = {
+                {"Gadir-i Hum Bayramı", "14.06.2025"},
+                {"Aşure Günü", "14.07.2025"},
+                {"Miraç Kandili", "25.02.2025"},
+                {"Mevlid Kandili", "04.10.2025"},
+                {"Berat Kandili", "27.03.2025"}
+            };
             
-            // Set event name
-            if (nextEventName != null) {
-                nextEventName.setText(eventName);
-            }
+            String nextEventName = "";
+            String nextEventDate = "";
+            int minDaysRemaining = Integer.MAX_VALUE;
             
-            // Set event date
-            if (nextEventDate != null) {
-                nextEventDate.setText(eventDate);
-            }
-            
-            // Calculate and set days remaining
+            // Şu anki tarihi al
+            Calendar currentCal = Calendar.getInstance();
+            Date currentDate = currentCal.getTime();
             SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault());
-            Date date = sdf.parse(eventDate);
             
-            if (date != null && daysRemaining != null) {
-                Calendar eventCal = Calendar.getInstance();
-                eventCal.setTime(date);
-                
-                Calendar currentCal = Calendar.getInstance();
-                
-                // If the event is already past for this year, calculate for next year
-                if (eventCal.before(currentCal)) {
-                    eventCal.add(Calendar.YEAR, 1);
+            // En yakın dini günü bul
+            for (String[] eventInfo : religiousDays) {
+                try {
+                    String name = eventInfo[0];
+                    String dateStr = eventInfo[1];
+                    
+                    Date eventDate = sdf.parse(dateStr);
+                    if (eventDate == null) continue;
+                    
+                    Calendar eventCal = Calendar.getInstance();
+                    eventCal.setTime(eventDate);
+                    
+                    // Eğer tarih geçmişse, gelecek yıla ayarla
+                    if (eventCal.before(currentCal)) {
+                        eventCal.add(Calendar.YEAR, 1);
+                    }
+                    
+                    // Kalan gün sayısını hesapla
+                    long diffInMillis = eventCal.getTimeInMillis() - currentCal.getTimeInMillis();
+                    int daysLeft = (int) TimeUnit.DAYS.convert(diffInMillis, TimeUnit.MILLISECONDS);
+                    
+                    // Eğer daha yakınsa, bu etkinliği sakla
+                    if (daysLeft < minDaysRemaining) {
+                        minDaysRemaining = daysLeft;
+                        nextEventName = name;
+                        nextEventDate = dateStr;
+                    }
+                } catch (Exception e) {
+                    Log.e(TAG, "Error processing event: " + eventInfo[0], e);
                 }
-                
-                long diffInMillis = eventCal.getTimeInMillis() - currentCal.getTimeInMillis();
-                int daysLeft = (int) TimeUnit.DAYS.convert(diffInMillis, TimeUnit.MILLISECONDS);
-                
-                daysRemaining.setText(daysLeft + " gün kaldı");
+            }
+            
+            // Bilgileri UI'a ayarla
+            if (this.nextEventName != null) {
+                this.nextEventName.setText(nextEventName);
+            }
+            
+            if (this.nextEventDate != null) {
+                this.nextEventDate.setText(nextEventDate);
+            }
+            
+            if (daysRemaining != null) {
+                daysRemaining.setText(minDaysRemaining + " gün kaldı");
+                // Rengi ayarla
+                if (minDaysRemaining <= 7) {
+                    // Yakın zaman için kırmızı
+                    daysRemaining.setTextColor(ContextCompat.getColor(this, R.color.colorAccent));
+                } else {
+                    // Normal zaman için yeşil
+                    daysRemaining.setTextColor(ContextCompat.getColor(this, R.color.colorPrimary));
+                }
             }
         } catch (Exception e) {
             Log.e(TAG, "Error updating event info: " + e.getMessage(), e);
